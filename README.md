@@ -5,13 +5,15 @@ should be installed node
 nuxt globaly 
 `npm i --global nuxt`
 
-# RUN DEV
+# FIRST START
 
 run `npm cache clean --force`
 
 delete node_modules folder (manualy) 
 
 run `npm install`
+
+# RUN DEV
 
 run `npm run dev`
 
