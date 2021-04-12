@@ -19,6 +19,8 @@ will work local server on 8000 for testing
 P.S. Without gitignore
 
 run `npm cache clean --force`
+
 delete node_modules folder (manualy) 
+
 repeat #first start
 

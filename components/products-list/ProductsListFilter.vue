@@ -6,10 +6,10 @@
           v-for="category in categories"
           :key="category.id"
           class="filter__item text_size-xl"
-          :class="{ 'filter__item-active': $route.params.category === `${category.slug}-${category.id}` }"
+          :class="{ 'filter__item-active': $route.params.category === `-${category.slug}-${category.id}` }"
         >
           <nuxt-link
-            :to="`/categories/category`+`${category.slug}-${category.id}`"
+            :to="`/categories/category`+`-${category.slug}-${category.id}`"
           >
             {{ category.title }}
           </nuxt-link>
