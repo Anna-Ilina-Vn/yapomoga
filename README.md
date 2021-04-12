@@ -2,6 +2,9 @@
 
 should be installed node 
 
+nuxt globaly 
+`npm i --global nuxt`
+
 # RUN DEV
 
 run `npm cache clean --force`
