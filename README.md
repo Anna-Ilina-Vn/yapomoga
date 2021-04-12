@@ -2,6 +2,8 @@
 
 should be installed node 
 
+# RUN DEV
+
 run `npm cache clean --force`
 
 delete node_modules folder (manualy) 
