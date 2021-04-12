@@ -1,13 +1,24 @@
 # MIDDLEWARE
 
-should be installed node 
+should be installed nodejs 
 
-run `npm cache clean --force`
+nuxt globaly 
+`npm i --global nuxt`
 
-delete node_modules folder (manualy) 
+# FIRST START
 
 run `npm install`
+
+# RUN DEV
 
 run `npm run dev`
 
 will work local server on 8000 for testing
+
+
+P.S. Without gitignore
+
+run `npm cache clean --force`
+delete node_modules folder (manualy) 
+repeat #first start
+
